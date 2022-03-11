@@ -9,7 +9,7 @@ public class Main {
         // Dette for mig virker mere simpelt, i det både ddl og dml filerne begge skal bruges for at oprette en database.
 
         File movies = new File("resources/imdb_data.csv");
-        GenerateFile.createSQLFile(movies, "create_imdb_database", "resources/hell/");
+        GenerateFile.createSQLFile(movies, "create_imdb_database");
 
     }
 

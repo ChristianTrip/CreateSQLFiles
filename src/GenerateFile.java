@@ -16,7 +16,7 @@ public class GenerateFile {
     private static int numOfAttribute;
 
 
-    public static void createSQLFile(File input, String outputFileName, String outputFilePath){
+    public static void createSQLFile(File input, String outputFileName){
 
         sqlFile = new File("resources/" + outputFileName + ".sql");
         inputFile = input;
